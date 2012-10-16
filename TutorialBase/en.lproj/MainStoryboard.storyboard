@@ -84,6 +84,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Log In" id="zEK-Dq-0Wv"/>
                     <connections>
+                        <outlet property="passwordTextField" destination="NyS-f4-DyD" id="JMQ-Mq-02r"/>
+                        <outlet property="userTextField" destination="epa-6q-tmp" id="yug-55-qbk"/>
                         <segue destination="eVf-OV-0bl" kind="push" identifier="LoginSuccesful" id="hdL-QN-8wK"/>
                     </connections>
                 </viewController>
@@ -182,8 +184,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="oll-mC-kkn"/>
                     <connections>
-                        <outlet property="passwordRegisterTextField" destination="wN2-Hr-MrQ" id="L0B-qC-BMI"/>
-                        <outlet property="userRegisterTextField" destination="rpY-6X-SdQ" id="kyw-CA-Xtc"/>
+                        <outlet property="passwordRegisterTextField" destination="wN2-Hr-MrQ" id="Kiu-9x-8Kp"/>
+                        <outlet property="userRegisterTextField" destination="rpY-6X-SdQ" id="ZmA-8Z-Zng"/>
                         <segue destination="eVf-OV-0bl" kind="push" identifier="SignupSuccesful" id="IAy-A0-oDm"/>
                     </connections>
                 </viewController>
@@ -232,6 +234,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="IAy-A0-oDm"/>
+        <segue reference="hdL-QN-8wK"/>
     </inferredMetricsTieBreakers>
 </document>
