@@ -38,9 +38,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    self.passwordRegisterTextField = nil;
-    self.userRegisterTextField = nil;
 }
 
 - (void)viewDidUnload
